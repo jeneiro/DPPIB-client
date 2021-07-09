@@ -1,34 +1,8 @@
 import React from 'react';
 
-import {
-    makeStyles,
-    Button,
-    Chip,
-    ClickAwayListener,
-    Fade,
-    Grid,
-    Paper,
-    Popper,
-    Avatar,
-    List,
-    ListItem,
-    ListItemAvatar,
-    ListItemText,
-    ListSubheader,
-    ListItemSecondaryAction,
-    Typography,
-} from '@material-ui/core';
-
-import PerfectScrollbar from 'react-perfect-scrollbar';
-
-import QueryBuilderTwoToneIcon from '@material-ui/icons/QueryBuilderTwoTone';
+import { makeStyles, Button, Fade, Paper, Popper } from '@material-ui/core';
 
 import NotificationsNoneTwoToneIcon from '@material-ui/icons/NotificationsNoneTwoTone';
-
-import User1 from './../../../../assets/images/users/avatar-1.jpg';
-import User2 from './../../../../assets/images/users/avatar-2.jpg';
-import User3 from './../../../../assets/images/users/avatar-3.jpg';
-import User4 from './../../../../assets/images/users/avatar-4.jpg';
 
 const useStyles = makeStyles((theme) => ({
     grow: {
