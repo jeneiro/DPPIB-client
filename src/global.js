@@ -1,1 +1,1 @@
-export const webapibaseurl = 'http://dppib-server.herokuapp.com/';
+export const webapibaseurl = 'https://dppib-server.herokuapp.com/';
